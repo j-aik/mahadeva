@@ -188,7 +188,7 @@ function Home() {
     {/* <ContactPopup open={contactOpen}
      onClose={closeContactPop} /> */}
 
-<div style={{
+{/* <div style={{
   background: "rgba(80, 80, 80, 0.5)",
   height:"8px",
 }}>
@@ -207,7 +207,7 @@ function Home() {
 </div>
 
 {/* row for the beaches starting here  */}
-<div style={{
+{/* <div style={{
   background: "rgba(80, 80, 80, 0.5)",
   height:"8px",
 }}>
@@ -361,7 +361,7 @@ function Home() {
        <h1 className="text-2xl font-bold" style={{ color:"white"}}>Mountains</h1>
      </div>
 </div>
-</div>
+</div> */} 
 
   
   <ContactPopup/>

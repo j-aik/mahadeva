@@ -8,7 +8,9 @@ const Watapp = () => {
   // ✅ define the styles first
   const styles = {
     container123: {
-      marginLeft: "45%",
+       position: "fixed",        // ✅ stays in place when scrolling
+      bottom: "25px",           // ✅ distance from bottom
+      left: "25px",
       border: "none",
       backgroundColor: hovered ? "#25D366" : "white", 
       transform: hovered ? "scale(1.15)" : "scale(1)",
@@ -20,9 +22,8 @@ const Watapp = () => {
       cursor: "pointer",
       transition: "all 0.3s ease",
       color: hovered ? "white" : "#25D366", 
-      position: "fixed",        // ✅ stays in place when scrolling
-      bottom: "20px",           // ✅ distance from bottom
-      right: "30px"
+      maxHeight: "70px", 
+     
     },
 
 
@@ -33,6 +34,8 @@ const Watapp = () => {
      alignItems: "center",
      maxHeight: "80px",
      borderRadius: "50%",
+     backgroundColor: hovered ? "#25D366" : "white", 
+     maxHeight: "50px",
   },
   };
 
@@ -42,7 +45,7 @@ const Watapp = () => {
       style={styles.container123}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onClick={() => window.open("https://wa.me/919744089740", "_blank")}
+      onClick={() => window.open("https://wa.me/919544952520", "_blank")}
     >
      <img src={images123}  style={styles.container12} />
     </button>

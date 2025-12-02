@@ -10,7 +10,9 @@ const Navbar = () => {
   <div className="logo-sub">Tours and Travels</div>
 </div>
 
-      <ul className="navbar-links">
+      <ul className="navbar-links" styles={{flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center"}}>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
       </ul>
