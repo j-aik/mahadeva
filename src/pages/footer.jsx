@@ -1,6 +1,6 @@
 import React from "react";
 import './css/footer.css';
-
+import { FaWhatsapp, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -21,10 +21,46 @@ const Footer = () => {
       </div> */}
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Madeva Tours & Travels. All rights reserved.</p>
-        <p style={{ fontSize: "20px", color: "black", fontWeight: 600 }}>
+        
+        <p style={{ fontSize: "20px", color: "black", fontWeight: 600,marginTop: "-15px", }}>
   Phone: +91 9544952520
      </p>
+     <p style={{ fontSize: "20px", color: "grey", fontWeight: 600, marginTop: "-15px",}}>Click here to check out about us !!!!!!</p>
+      <div style={{ display: "flex", gap: "20px", fontSize: "30px" ,display: "flex",
+    alignItems: "center",
+    justifyContent: "center",marginTop: "-15px", }}>
+  {/* WhatsApp */}
+  
+  <a 
+    href="https://wa.me/919544952520" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    style={{ color: "green" }}
+  >
+    <FaWhatsapp />
+  </a>
+
+  {/* Email */}
+  <a 
+    href="mailto:mahadevatraavels@gmail.com"
+    style={{ color: "black" }}
+  >
+    <FaEnvelope />
+  </a>
+
+  {/* Instagram */}
+  <a 
+    href="https://instagram.com/varkala_mahadevatravels"
+    target="_blank" 
+    rel="noopener noreferrer"
+    style={{ color: "black" }}
+  >
+    <FaInstagram />
+  </a>
+</div>
+      <div style={{height: "10px",}}>
+      </div>
+      <p style={{}}>© {new Date().getFullYear()} Madeva Tours & Travels. All rights reserved.</p>
       </div>
     </footer>
   );

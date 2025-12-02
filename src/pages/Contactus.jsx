@@ -45,7 +45,7 @@ const ContactUs = () => {
 
         <div style={styles.iframeWrapper}>
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSezuGgjkbfsaWmujiuRGwXpyZm-w-2VOv3sBxR5wPPJNh7UMw/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScJYh2On9a1-vRmZYdGvf7OtZVRs1idyk0CukkSxM1EkX47Ug/viewform?usp=dialog"
             width="100%"
             height="1200"
             frameBorder="0"

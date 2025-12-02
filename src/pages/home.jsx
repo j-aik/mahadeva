@@ -365,9 +365,9 @@ function Home() {
 
   
   <ContactPopup/>
-
-  <Watapp/>
+    
     <Footer/>
+    
     </>
   );
 }
